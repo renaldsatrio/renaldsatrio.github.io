@@ -1,0 +1,50 @@
+
+body{
+	 max-width: 100%;
+     overflow-x: hidden;
+}
+.container-fluid img{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.col {
+	padding: 0;
+	background-color: #ffff;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.col p{
+	margin: 12px;
+	color: #1e272e;
+}
+
+
+
+
+
+.parallax{
+	background-image: url(../img/parallax.jpg);
+	height: 550px;
+	margin-top: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.parallax .col {
+	background-color: #fff;
+}
+
+footer {
+	background-color: #212529;
+	color: #fff;
+	margin-top: 80px;
+}
